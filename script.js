@@ -10,8 +10,8 @@ function addComment(){
     clearInput();
 }
 
-function validate(){
-    if(removeNewLines(newCommentField.value).length==0){
+function validate(text){
+    if(removeNewLines(text).length==0){
         alert("Комментарий должен содержать текст");
         return false;
     }
