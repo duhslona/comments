@@ -23,6 +23,20 @@
                         <label for="text-area">Введите комментарий</label>
                         <textarea class="form-control border border-dark" id="text-area" rows="5"></textarea>
                     </div>
+                    <div class="mb-3">
+                        <label for="userName" class="form-label">Имя пользователя:</label>
+                        <input type="text" class="form-control border border-dark" id="userName">
+                    </div>
+                    <div class="mb-3">
+                        <label for="userPic" class="form-label">Ссылка на аватар:</label>
+                        <input type="text" class="form-control border border-dark" id="userPic">
+                    </div>
+                    <div class="form-check mb-3">
+                        <input class="form-check-input" type="checkbox" value="" id="saveUserData" checked>
+                        <label class="form-check-label" for="saveUserData">
+                            Запомнить мои данные
+                        </label>
+                    </div>
                     <button type="button" class="btn btn-warning btn-block" onclick="addComment()">Добавить
                         комментарий</button>
                 </div>
